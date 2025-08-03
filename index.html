@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Nav Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <nav class="header-nav" id="headerNav">
+    <div class="nav-wrapper">
+      <a href="#home" class="brand-logo">ModernNav</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li class="has-dropdown">
+          <a href="#services" class="nav-item">Services</a>
+          <div class="dropdown-menu">
+            <a href="#web-design">Web Design</a>
+            <a href="#development">Development</a>
+            <a href="#seo">SEO</a>
+            <a href="#marketing">Marketing</a>
+          </div>
+        </li>
+        <li><a href="#portfolio" class="nav-item">Portfolio</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="content-section section-one">
+    <div class="section-content"><h1>Welcome to Our Site</h1></div>
+  </section>
+  <section id="about" class="content-section section-two">
+    <div class="section-content"><h2>About Us</h2></div>
+  </section>
+  <section id="services" class="content-section section-three">
+    <div class="section-content"><h2>Our Services</h2></div>
+  </section>
+  <section id="portfolio" class="content-section section-four">
+    <div class="section-content"><h2>Our Work</h2></div>
+  </section>
+  <section id="contact" class="content-section section-five">
+    <div class="section-content"><h2>Get in Touch</h2></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
